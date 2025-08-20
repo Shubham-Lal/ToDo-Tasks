@@ -6,7 +6,8 @@ const loadTasks = () => {
         const serializedTasks = localStorage.getItem('tasks');
         if (serializedTasks === null) return [];
         return JSON.parse(serializedTasks);
-    } catch (err) {
+    }
+    catch (err) {
         return [];
     }
 };
