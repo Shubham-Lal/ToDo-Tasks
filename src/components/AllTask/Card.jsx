@@ -1,4 +1,4 @@
-import { Draggable } from 'react-beautiful-dnd';
+import { Draggable } from '@hello-pangea/dnd';
 import { MdEdit, MdDelete, MdDragIndicator } from "react-icons/md";
 import { useDispatch } from 'react-redux';
 import { toggleAddTaskModal, removeTask } from '../../state/taskReducer';

@@ -44,6 +44,6 @@ button {
 
 @media screen and (min-width: 700px) {
   .task__container {
-    padding-top: 60px;
+    padding-top: 50px;
   }
 }

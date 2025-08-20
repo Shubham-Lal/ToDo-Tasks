@@ -1,7 +1,7 @@
 import './AllTask.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { handleFilter, toggleAddTaskModal, toggleFilter } from '../../state/taskReducer';
-import { DragDropContext, Droppable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable } from '@hello-pangea/dnd';
 import { setTasks } from '../../state/taskReducer';
 import { FaFilter } from 'react-icons/fa';
 import { IoMdClose } from "react-icons/io";
