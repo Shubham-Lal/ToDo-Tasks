@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Barlow', sans-serif;
   background-color: white;
 }
 
@@ -44,6 +44,6 @@ button {
 
 @media screen and (min-width: 700px) {
   .task__container {
-    padding-top: 50px;
+    padding-top: 60px;
   }
 }

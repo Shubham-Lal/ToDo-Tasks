@@ -4,5 +4,5 @@ import taskReducer from './taskReducer';
 export const store = configureStore({
     reducer: {
         tasks: taskReducer,
-    },
+    }
 });
